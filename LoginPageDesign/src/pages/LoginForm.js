@@ -14,10 +14,7 @@ class LoginForm extends Component {
         returnKeyType={"go"}
         placeholder ='Password' secureTextEntry={true}
         inputRef={input =>this.passwordInput=input}/>
-        <Input 
-        returnKeyType={"go"}
-        placeholder ='Password' secureTextEntry={true}
-        inputRef={input =>this.passwordInput=input}/>
+        
         
         <MyButton
         color={"#f1f1f1"}
